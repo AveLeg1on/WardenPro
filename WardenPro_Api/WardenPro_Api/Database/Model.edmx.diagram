@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="5c6a4f630e0148eebe0917f01506bd82" Name="Diagram1">
+        <EntityTypeShape EntityType="WardenProModel.Department" Width="1.5" PointX="0.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="WardenProModel.Division" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="WardenProModel.sysdiagram" Width="1.5" PointX="5.75" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="WardenProModel.Visitor" Width="1.5" PointX="3" PointY="9.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="WardenProModel.VisitorBlackList" Width="1.5" PointX="5.25" PointY="10.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="WardenProModel.VisitRequest" Width="1.5" PointX="5.25" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="WardenProModel.VisitRequestType" Width="1.5" PointX="3" PointY="14.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="WardenProModel.Worker" Width="1.5" PointX="3" PointY="3.25" IsExpanded="true" />
+        <AssociationConnector Association="WardenProModel.FK_Worker_Department" ManuallyRouted="false" />
+        <AssociationConnector Association="WardenProModel.FK_Worker_Division" ManuallyRouted="false" />
+        <AssociationConnector Association="WardenProModel.FK_VisitorBlackList_Visitor" ManuallyRouted="false" />
+        <AssociationConnector Association="WardenProModel.FK_VisitRequest_VisitRequestType" ManuallyRouted="false" />
+        <AssociationConnector Association="WardenProModel.FK_VisitRequest_Worker" ManuallyRouted="false" />
+        <AssociationConnector Association="WardenProModel.LnkVisitorRequest" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

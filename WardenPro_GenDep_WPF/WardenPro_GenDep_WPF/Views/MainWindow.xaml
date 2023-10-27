@@ -1,0 +1,35 @@
+﻿<Window x:Class="WardenPro_GenDep_WPF.Views.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WardenPro_GenDep_WPF.Views"
+        mc:Ignorable="d"
+        Title="Модуль по организации контроля физического доступа к значимому объекту “ХранительПРО”" 
+        Height="750" 
+        Width="1200"
+        MinHeight="750" 
+        MinWidth="1200"
+        Icon="../Resources/User.jpg"
+        >
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <TextBlock
+            Text="ТЕРМИНАЛ СОТРУДНИКА ОБЩЕГО ОТДЕЛА"
+            FontSize="20"
+            FontWeight="SemiBold"
+            Margin="30, 10"
+            />
+
+        <Frame
+            Grid.Row="1"
+            Name="pageContainer"
+            NavigationUIVisibility="Hidden"
+            Margin="20"
+            />
+    </Grid>
+</Window>

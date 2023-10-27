@@ -1,0 +1,36 @@
+﻿<Page x:Class="WardenPro_VisitRequest_WPF.Views.MenuPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WardenPro_VisitRequest_WPF.Views"
+      mc:Ignorable="d" 
+      d:DesignHeight="700" d:DesignWidth="1200"
+      Title="MenuPage">
+
+    <StackPanel
+        Orientation="Horizontal"
+        VerticalAlignment="Center"
+        HorizontalAlignment="Center"
+        >
+        <Button
+            Content="Создать&#10;личную заявку"
+            Height="150"
+            Width="150"
+            Click="ToPersonalRequest_Click"
+            />
+        <Button
+            Content="Создать&#10;групповую заявку"
+            Height="150"
+            Width="150"
+            Margin="10, 0"
+            Click="ToGroupRequest_Click"
+            />
+        <Button
+            Content="Зарегистрироваться"
+            Height="150"
+            Width="150"
+            Click="ToRegPage_Click"
+            />
+    </StackPanel>
+</Page>
